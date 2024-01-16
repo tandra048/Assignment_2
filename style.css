@@ -305,6 +305,40 @@ p,li{
     color: #FFF;
 }
 /* place section end here */
+/* transportation section start here  */
+.transport-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.card>img{
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    padding-top: 20px;
+}
+.transport-card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    gap: 20px;
+    border-radius: 16px;
+}
+.card{
+    padding-bottom: 20px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card>h3,p{
+    padding-top: 0;
+}
+/* transportation section end here  */
 
 /* newsletter section start here */
 

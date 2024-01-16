@@ -134,6 +134,11 @@
     .place-img{
         width: 100%;
     }
+    /* transportation section start here  */
+
+    .transport-card-container{
+        flex-direction: column;
+    }
 /* newsletter section start here */
     .newsletter-container{
         flex-direction: column;
