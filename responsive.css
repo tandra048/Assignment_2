@@ -34,4 +34,22 @@
     .destination-desc>p{
         width: 100%;
     }
+    /* why section start here */
+    .why-container{
+        padding: 0;
+        margin: 0 auto;
+    }
+    .desc-container{
+        flex-direction: column;
+    }
+    .content{
+        flex-direction: column;
+    }
+    #desc-3{
+        margin: 0;
+    }
+    .heading>h3{
+        text-align: center;
+    }
+    
 }

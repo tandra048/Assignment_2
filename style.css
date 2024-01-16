@@ -178,3 +178,46 @@ p,li{
     font-weight: 800;
   }
 /* destination section end here */
+
+/* why section start here */
+.why-container{
+    padding-top: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.heading>p,h3{
+    text-align: center;
+}
+.desc-container{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 24px;
+}
+.desc{
+    width: 50%;
+    padding: 32px;
+}
+#desc-1{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+#desc-2{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+#desc-3{
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    width: 50%;
+    margin-left: 22%;
+}
+/* why section end here */
