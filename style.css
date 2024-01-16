@@ -221,3 +221,31 @@ p,li{
     margin-left: 22%;
 }
 /* why section end here */
+
+/* place section start here */
+.place-container{
+    padding-top: 50px;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: 0 auto; 
+}
+.place-desc-container{
+    width: 50%;
+}
+.place-img{
+    width: 50%;
+    position: relative;
+}
+.place-img>h4{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 800;
+    color: #FFF;
+}
+/* place section end here */
