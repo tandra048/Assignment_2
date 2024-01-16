@@ -21,4 +21,17 @@
     h3{
         text-align: start;
     }
+    .destination-container{
+        padding: 0;
+    }
+    .destination-img{
+        flex-direction: column;
+    }
+    .first, .second, .third{
+        
+        flex-direction: column;
+    }
+    .destination-desc>p{
+        width: 100%;
+    }
 }

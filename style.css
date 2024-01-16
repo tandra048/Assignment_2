@@ -130,3 +130,51 @@ p,li{
     height: 700px; 
 }
 /* about tour section end here */
+
+/* destination section start here */
+.destination-container{
+    padding-top: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.destination-desc>p{
+    text-align: center;
+}
+.destination-img{
+     display: flex;
+     flex-direction: column;
+     gap: 24px;
+}
+.first, .second, .third{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 24px;
+}
+ h4{
+    color: white;   
+}
+
+.one ,.two{
+    position: relative;
+    text-align: center;
+}
+.one>h4{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+  } 
+  .two>h4{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+  }
+/* destination section end here */
