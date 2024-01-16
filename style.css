@@ -249,3 +249,58 @@ p,li{
     color: #FFF;
 }
 /* place section end here */
+
+.newsletter-container{
+    max-width: 1200px;
+    display: flex;
+    padding-top: 50px;
+    margin: 0 auto;
+}
+.newsletter-desc{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+}
+.newsletter-desc>h4{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+.newsletter-img{
+    width: 600px;
+    position: relative;
+}
+form{
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+}
+#box{
+    width: 324px;
+    height: 120px;
+    left: 40%;
+    bottom: 12%;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    background: #FF5400;
+    position: absolute;
+    text-align: center;
+    padding: 10px;
+}
+#box>h2{
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 0px;
+}
+#box>p{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 0;
+}
