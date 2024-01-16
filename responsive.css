@@ -70,7 +70,11 @@
     .newsletter-desc{
         width: 100%;
         flex-direction: column;
-        border: 2px solid red;
+
+    }
+    /* Footer section start here */
+    .logo{
+        gap: 10px;
     }
     
 }
