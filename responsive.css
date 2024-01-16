@@ -1,16 +1,69 @@
 @media screen and (max-width:600px) {
-   
-    /* .b-form{
-        grid-template-rows: column;
-        padding: 16px;
-    }
-    .banner-desc>h1{
-        padding: 0;
-    }
-    .banner-form{
-        margin: 0;
-        text-align: center;
-    } */
+    *{
+        margin: 0 auto;
+        padding: 0 auto;
+       }
+/* nav section start here */
+.nav-container{
+    flex-direction: column;
+}
+.nav-logo{
+    flex-direction: row;
+    margin-top: 10px;
+    gap: 0;
+}
+.nav-logo>img{
+    width: 28px;
+    height: 28px;
+    padding: 0;
+}
+.nav-logo>p{
+    font-size: 21px;
+}
+.nav-items{
+    width: 100%;
+}
+.nav-items>ul{
+    flex-direction: column;
+    gap: 10px;
+    gap: 0;
+}
+   /* banner section start here */
+  
+   .banner-container{
+    flex-direction: column;
+    height: 483px;
+    margin: 0 ;
+    padding: 0;
+   }
+   .banner-form{
+    margin:0;
+    padding: 0;
+    height: 256px;
+    width: 300px;
+    padding: 10px;
+   }
+   .banner-desc>h1{
+    font-size: 22px;
+    padding: 0;
+   }
+   .banner-desc>p{
+    font-size: 14px;
+   }
+   .b-form{
+    flex-direction: column;
+    height: 256px;
+    width: 300px;
+    /* padding: 10px; */
+    margin: 0;
+   }
+   .text{
+    width: 255px;
+    margin: 0;
+   }
+  
+
+   /* about tour section start here */
     .about-tour-container{
         flex-direction: column;
         width: 100%;
@@ -21,18 +74,27 @@
     h3{
         text-align: start;
     }
+    /* destination section start here */
     .destination-container{
-        padding: 0;
+        padding-top: 20px;
     }
     .destination-img{
         flex-direction: column;
     }
     .first, .second, .third{
-        
+        width: 100%;
         flex-direction: column;
+    }
+    .one,.two,.three, .four ,.five, .six,.seven{
+        width: 500px;
     }
     .destination-desc>p{
         width: 100%;
+        font-size: 14px;
+    }
+    .destination-desc>h3{
+        font-size: 20px;
+        text-align: center;
     }
     /* why section start here */
     .why-container{
@@ -71,6 +133,16 @@
         width: 100%;
         flex-direction: column;
 
+    }
+
+    /* why section start here */
+    .desc{
+        text-align: center;
+        width: 100%;
+    }
+    #desc-3{
+        width: 100%;
+        margin: 0;
     }
     /* Footer section start here */
     .logo{
