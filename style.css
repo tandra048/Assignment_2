@@ -393,10 +393,15 @@ padding-top: 0;
     color: #FFF;
 }
 /* place section end here */
+
 /* transportation section start here  */
 .transport-container{
     max-width: 1200px;
     margin: 0 auto;
+}
+.transport-container>h3{
+    color: #FF5400;
+    font-size: 36px;
 }
 .card>img{
     height: 50px;
@@ -425,6 +430,9 @@ padding-top: 0;
 }
 .card>h3,p{
     padding-top: 0;
+}
+.btn>a{
+    color: #FFF;
 }
 /* transportation section end here  */
 

@@ -161,10 +161,18 @@
         width: 100%;
     }
     /* transportation section start here  */
-
+ .transport-container{
+    padding-top: 20px;
+    text-align: center;
+ }
+ .transport-container>h3{
+    padding-bottom: 10px;
+ }
     .transport-card-container{
         flex-direction: column;
+        margin: 0;
     }
+
 /* newsletter section start here */
     .newsletter-container{
         flex-direction: column;
