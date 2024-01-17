@@ -121,6 +121,32 @@
     .heading>h3{
         text-align: center;
     }
+    /* deals section start here */
+    .deals-container{
+        margin-top: 20px;
+        text-align: center;
+    }
+    .deals-container>h3{
+        padding-left: 107px;
+    }
+    .img1,.img2,.img3{
+        width: 335px;
+    }
+    .description-container{
+        width: 303px;
+        height: 297px;
+        padding: 0;
+        text-align: center;
+        padding-bottom: 20px;
+        top: 170px;
+    }
+    .img2>.description-container{
+        top: 170px;
+    }
+    .descrip{
+        flex-direction: column;
+        gap: 0;
+    }
     /* place section start here */
     .place-container{
         flex-direction: column;
